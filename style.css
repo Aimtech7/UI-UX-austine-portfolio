@@ -310,7 +310,10 @@ form textarea{
         color: #ff004f;
     }
     /* CSS FOR SMALL SCREENS */
-    nav .fas{
+    nav .fa{
+        display: none !important;
+    }
+    nav .fa-solid {
         display: none !important;
     }
     @media only screen and (max-width: 600px){
@@ -325,9 +328,12 @@ form textarea{
         .header-text h1 {
 font-size: 30px;
 }
-    nav .fas{
+    nav .fa{
         display: block !important;
         font-size: 25px;
+    }
+    nav .fa-solid {
+        display: inline-block !important;
     }
     nav ul{
         background: #ff004f;
@@ -344,7 +350,7 @@ font-size: 30px;
         display: block;
         margin: 25px 0;
     }
-    nav ul .fas{
+    nav ul .fa{
         position: absolute;
         top: 25px;
         left: 25px;
