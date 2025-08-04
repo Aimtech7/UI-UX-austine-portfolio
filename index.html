@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AIM>DEv</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1a879eedac.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo2.png" class="logo" alt="">
+                <ul>
+
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">CONTACT</a></li>
+
+                </ul>
+            </nav>
+            <div>
+                <div class="header-text">
+                    <p>Web developer</p>
+                    <h1>Hi, I'm <span>Austin</span>e <br>Makwaka from Kenya</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <--about-------> 
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="background-removebg-preview.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum iusto deserunt voluptatem natus animi, blanditiis id non eveniet rerum tempora impedit. Incidunt hic unde id sapiente dolorum exercitationem repellat quia?</p>
+                
+                    <div class="tabs-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('expirience')">Expirience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tabs-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS apps</li>
+                        </ul>
+                </div>
+                <div class="tabs-contents" id="expirience">
+                        <ul>
+                            <li><span>2024 - Current</span><br>UI/UX Training at ET institute</li>
+                            <li><span>2023 - 2024</span><br>Team Lead at StarApp LLc.</li>
+                            <li><span>2021 - 2023</span><br>Internship at ekart ecommerce</li>
+                        </ul>
+                </div>
+                <div class="tabs-contents"id="education">
+                        <ul>
+                            <li><span>2025</span><br>Software Essentials at PLP</li>
+                            <li><span>2022 - 2024</span><br>UI/UX Design Training at et Institute</li>
+                            <li><span>2021 - 2022</span><br>MBA From MIT Texas</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <p>Lorem ipsum dolor sit...</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit...</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit...</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tabLinks = document.getElementsByClassName("tab-links");
+        var tabContents = document.getElementsByClassName("tabs-contents");
+        function opentab(tabname) {
+            for (var tablink of tabLinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (var tabcontent of tabContents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+
+</html>
