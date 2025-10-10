@@ -7,7 +7,7 @@ This project showcases my journey, skills, and projects as a **Web Developer & D
 
 ## 👨‍💻 About Me
 
-**I am Austine Makwaka**, a dedicated and innovative web developer based in **Kenya**.  
+**I am Austine Makwaka**, a dedicated and innovative web developer based in **Kenya**.   
 With a strong background in **front-end and back-end technologies**, I specialize in creating **responsive, user-friendly, and visually appealing websites and applications**.
 
 My expertise spans **UI/UX design**, **web development**, and **mobile app development**, allowing me to deliver **comprehensive digital solutions** tailored to client needs.
