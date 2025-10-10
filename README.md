@@ -32,6 +32,7 @@ I continuously seek opportunities to **learn, grow, and innovate**, staying upda
 
 ---
 
+
 ## 🛠️ Technologies Used
 
 | Category | Technologies |
