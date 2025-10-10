@@ -15,7 +15,7 @@ My expertise spans **UI/UX design**, **web development**, and **mobile app devel
 I am passionate about leveraging the **latest industry trends** and **best practices** to build products that not only meet business objectives but also provide **exceptional user experiences**.  
 My approach combines **technical proficiency** with **creative problem-solving**, ensuring every project is executed with precision and attention to detail.
 
-Whether working **independently** or as part of a **collaborative team**, I am committed to delivering **high-quality results on time** and **exceeding expectations**.  
+Whether working **independently** or as part of a **collaborative team**, I am committed to delivering **high-quality results on time** and **exceeding expectations**.   
 I continuously seek opportunities to **learn, grow, and innovate**, staying updated with emerging technologies to provide **cutting-edge solutions** for my clients.
 
 ---
